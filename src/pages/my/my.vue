@@ -17,7 +17,7 @@
         <text class="value">5张</text>
       </view>
     </view>
-    <wd-grid clickable :column="5">
+    <wd-grid clickable :column="5" style="margin-top: 20px ; width: 80vw; margin-left: 5vw;margin-right: 5vw;">
       <wd-grid-item icon="/static/icon-pay.png" @itemclick="storyclick('farmer')"text="待付款" />
       <wd-grid-item icon="/static/icon-ship.png" @itemclick="storyclick('farmer')" text="待出行" :icon-style="{ width: '50px', height: '50px', 'object-fit': 'contain' }"/>
       <wd-grid-item icon="/static/icon-comment.png" @itemclick="storyclick('farmer')" text="待评价" />
@@ -26,7 +26,7 @@
     </wd-grid>
     <!-- 订单状态 -->
 
-    <wd-grid clickable :column="4">
+    <wd-grid clickable :column="4" style="margin-top: 20px ;  width: 80vw; margin-left: 5vw;margin-right:5vw;">
       <wd-grid-item icon="/static/icon-favorite.png" @itemclick="storyclick('farmer')"text="我的收藏" />
       <wd-grid-item icon="/static/icon-cart.png" @itemclick="storyclick('farmer')" text="购物车" :icon-style="{ width: '50px', height: '50px', 'object-fit': 'contain' }"/>
       <wd-grid-item icon="/static/icon-history.png" @itemclick="storyclick('farmer')" text="历史记录" />
@@ -62,6 +62,7 @@ export default {
 <style>
 .container {
   padding: 20px;
+  background-color: antiquewhite;
 }
 
 .user-info {
