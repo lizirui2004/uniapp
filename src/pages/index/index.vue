@@ -11,7 +11,7 @@
       <wd-grid-item icon="/static/icon/s_agricultural.png" @itemclick="buy_click('s_agricultural')" text="特色农产品" />
     </wd-grid>
     <wd-grid clickable :column="3">
-      <wd-grid-item icon="/static/icon/farmer.png" @itemclick="storyclick('farmer')"text="农民奋斗故事" />
+      <wd-grid-item icon="/static/icon/farmer.png" @itemclick="storyclick('farmer')" text="农民奋斗故事" />
       <wd-grid-item icon="/static/icon/skill.png" @itemclick="storyclick('farmer')" text="技艺传承故事" :icon-style="{ width: '50px', height: '50px', 'object-fit': 'contain' }"/>
       <wd-grid-item icon="/static/icon/return_home.png" @itemclick="storyclick('farmer')" text="返乡创业故事" />
       <wd-grid-item icon="/static/icon/region.png" @itemclick="storyclick('farmer')" text="地域特色故事" />
