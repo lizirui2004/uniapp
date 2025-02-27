@@ -62,7 +62,8 @@ export default {
 <style>
 .container {
   padding: 20px;
-  background-color: antiquewhite;
+  background-color: rgb(232, 247, 212);
+  height: 100vh;
 }
 
 .user-info {

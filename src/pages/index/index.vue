@@ -79,7 +79,7 @@ function search(e)
 
 <style>
 .page{
-  background-color: antiquewhite;
+  background-color: rgb(232, 247, 212);
 }
 .advertise{
   margin-left: 10px;
