@@ -39,13 +39,6 @@
 			}
 		},
 		{
-			"path": "pages/storys/storys",
-			"style": {
-				"navigationBarTitleText": " ",
-				"navigationStyle": "custom"
-			}
-		},
-		{
 			"path": "pages/strategy/strategy",
 			"style": {
 				"navigationBarTitleText": "首页"

@@ -13,7 +13,7 @@
     <view style="width: 90vw; margin-left: 5vw; margin-right: 5vw;">
     <text style="font-size: 13px;">故事专区</text>
     <wd-grid clickable :column="3">
-      <wd-grid-item icon="/static/icon/farmer.png" @itemclick="storyclick('farmer')"text="农民奋斗故事" />
+      <wd-grid-item icon="/static/icon/farmer.png" @itemclick="storyclick('farmer')" text="农民奋斗故事" />
       <wd-grid-item icon="/static/icon/skill.png" @itemclick="storyclick('farmer')" text="技艺传承故事" :icon-style="{ width: '50px', height: '50px', 'object-fit': 'contain' }"/>
       <wd-grid-item icon="/static/icon/return_home.png" @itemclick="storyclick('farmer')" text="返乡创业故事" />
       <wd-grid-item icon="/static/icon/region.png" @itemclick="storyclick('farmer')" text="地域特色故事" />
@@ -79,7 +79,7 @@ function search(e)
 
 <style>
 .page{
-  background-color: antiquewhite;
+  background-color: rgb(232, 247, 212);
 }
 .advertise{
   margin-left: 10px;

@@ -41,7 +41,7 @@
 		<!-- 底部消息发送栏 -->
 		<!-- 用来占位，防止聊天消息被发送框遮挡 -->
 		<view class="chat-bottom" :style="{height: `${inputHeight}rpx`}">
-			<view class="send-msg" :style="{ bottom: `${keyboardHeight + 100 - 60}rpx` }">
+			<view class="send-msg" :style="{ bottom: `${keyboardHeight - 60}rpx` }">
                 <view class="uni-textarea">
                     <textarea v-model="chatMsg"
                         maxlength="300"
@@ -55,11 +55,9 @@
                     auto-height></textarea>
                 </view>
 				<button @click="handleSend" class="send-btn">发送</button>
-			</view>
-             
+			</view>             
 		</view>
 	</view>
-   <tabbar></tabbar>   
 </template>
 <script>
 	export default{
